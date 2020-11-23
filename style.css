@@ -79,12 +79,17 @@ a {
   height: 100px;
 }
 
+.mission-title {
+  background-color: transparent;
+}
+
 h2 {
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
+  background-color: none;
 }
 
 h4 {
@@ -93,6 +98,7 @@ h4 {
   margin-block-end: 1.33em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  margin-top: 0;
   font-weight: bold;
 }
 
@@ -114,3 +120,22 @@ h4 {
   width: 300px;
 }
 
+/* LOCATIONS SECTION */
+
+#locations-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/img-locations-background.webp");
+    background-size: cover;
+    background-position: center;
+    margin: 0 40px;
+    height: 500px;
+}
+
+.location-header {
+  background-color: transparent;
+  margin-bottom: 0;
+  margin-top: -65px;
+}
