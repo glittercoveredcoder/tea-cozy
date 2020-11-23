@@ -136,6 +136,39 @@ h4 {
 
 .location-header {
   background-color: transparent;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   margin-top: -65px;
+}
+
+.location-boxes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 285px;
+  opacity: 1;
+}
+
+.middle-box {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* FOOTER */
+
+.contact-info {
+  height: 200px;
+}
+
+.copyright p{
+  margin-left: 20px;
+  text-align: left;
+  font-size: 0.7rem;
 }
