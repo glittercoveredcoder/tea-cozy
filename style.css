@@ -15,6 +15,11 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 /* HEADER */
 
 header {
@@ -49,4 +54,22 @@ a {
   color: seashell;
 }
 
+/* MISSION SECTION */
 
+#mission-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url('/images/img-mission-background.webp');
+  margin: 0 auto;
+}
+
+.mission-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
